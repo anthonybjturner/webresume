@@ -1,0 +1,23 @@
+body{
+	
+	background-color: #000000;
+	color: #FFFFFF;
+		
+}
+
+#main-content{
+	
+	padding: 1em;
+	background-color:rgba(255,255,255,0.6);
+	color: #000000;
+	
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+
+#main-content img{
+	
+	margin: 1em;
+}
+
+
