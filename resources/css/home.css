@@ -5,8 +5,9 @@ body{
 		
 }
 
-#main-content{
+#content{
 	
+	margin-bottom: 1em;
 	padding: 1em;
 	background-color:rgba(255,255,255,0.6);
 	color: #000000;
@@ -15,9 +16,21 @@ body{
 	-webkit-border-radius: 10px;
 }
 
-#main-content img{
+#content img{
 	
-	margin: 1em;
+	
 }
+
+#lightGallery li{
+	
+	display: inline;
+}
+
+.thumbnail{
+	
+	width: 256px;
+}
+
+
 
 
