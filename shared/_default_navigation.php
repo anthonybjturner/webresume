@@ -10,7 +10,7 @@
 	
 					</button>
 
-					<a class="navbar-brand" href="../home/home.php">Anthony Turner's Portfolio</a>
+					<a class="navbar-brand" href="/index.php">Anthony Turner's Portfolio</a>
 					
 				</div>
 				
@@ -20,7 +20,7 @@
 					
 				
 					<li>
-		      			  <a href="#">Home <b class="glyphicon glyphicon-home"></b></a>
+		      			  <a href="/index.php">Home <b class="glyphicon glyphicon-home"></b></a>
 		      		</li>
 		      		
 		      		<li class="dropdown">
@@ -28,13 +28,12 @@
 		      			  <ul class="dropdown-menu">
 		      			  	
 							<li>
-								<a href="#"> Web Developer</a>
+								<a href="/views/portfolio/index.php?action=webdev"> Web Developer</a>
 							</li>
 							
 							<li>
-								<a href="#"> Software Engineer</a>
+								<a href="/views/portfolio/index.php?action=engineer"> Software Engineer</a>
 							</li>
-			
 		        		</ul>
 		      		</li>
 		      		
@@ -44,23 +43,23 @@
 		      			  	
 									
 							<li>
-								<a href="#"> Mobile </a>
+								<a href="/views/projects/index.php?action=personal"> Personal </a>
 							</li>
 							
 							<li>
-								<a href="#"> Desktop </a>
+								<a href="/views/projects/index.php?action=edu"> Edu </a>
 							</li>
 			
 		        		</ul>
 		      		</li>
 		      		
 		      		<li>
-		      			  <a href="#" >Resume <b class="glyphicon glyphicon-tasks"></b></a>
+		      			  <a href="/views/resume/index.php" >Resume <b class="glyphicon glyphicon-tasks"></b></a>
 		      			 
 		      		</li>
 		      		
 		      		<li>
-		      			  <a href="#">About Me <b class="glyphicon glyphicon-user"></b></a>
+		      			  <a href="/views/info/index.php?action=about">About Me <b class="glyphicon glyphicon-user"></b></a>
 
 		      		</li>
 		

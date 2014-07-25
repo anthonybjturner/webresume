@@ -379,9 +379,9 @@
                         if (settings.captionLink === true) {
                             var link = $children.eq(i).attr('data-link');
                             if (typeof link !== 'undefined' && link !== '') {
-                                link = link
+                                link = link;
                             } else {
-                                link = '#'
+                                link = '#';
                             }
                             $slide.eq(i).append('<div class="info group"><a href="' + link + '" class="title">' + title + '</a></div>');
                         } else {

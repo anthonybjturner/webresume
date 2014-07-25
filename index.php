@@ -10,7 +10,7 @@ switch($action){
 		
 		$model = '';
 		$view = 'views/home.php';
-		$title = 'My resume';
+		$title = 'My Portfolio site';
 		break;
 }
 
